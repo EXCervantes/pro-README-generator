@@ -44,6 +44,15 @@ inquirer
             }
         },
         {
+            type: "input",
+            message: "What is you email address?",
+            name: "email",
+            validate: function (answer) {
+                if (answer.length >= 1) return true;
+                return console.log("A valid email is required.");
+            }
+        },
+        {
             type: "list",
             message: "Choose a license for your project.",
             name: "license",
@@ -80,14 +89,3 @@ function init() {
 };
 
 init();
-
-// function generateReadmeMarkdown({
-//     name,
-//     location,
-//     hobby,
-//     food,
-//     github,
-//     linkedin,
-//     langs,
-// }) {
-//     return
