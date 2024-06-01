@@ -52,10 +52,10 @@ function generateMarkdown(data) {
     
     ${licenseBadge(data)}
     
-    ## Description
+  ## Description
     ${data.description}
 
-    ## Table of Contents:
+  ## Table of Contents:
       1. [Description](#description) 
       2. [Installation](#Installation)
       3. [Usage](#Usage)  

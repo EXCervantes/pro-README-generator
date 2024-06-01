@@ -1,11 +1,11 @@
-# Demo project
+# My First Project
     
      
     
-    ## Description
-    Words and stuff
+  ## Description
+    This is my first project showing off my newfound skills in coding and working with VSCode.
 
-    ## Table of Contents:
+  ## Table of Contents:
       1. [Description](#description) 
       2. [Installation](#Installation)
       3. [Usage](#Usage)  
@@ -16,20 +16,20 @@
       8. [E-mail](#E-mail)
   
   ## Installation
-  undefined
+  There are no specific instructions to install this program. It runs as you see it with no special requirements to run it.
   
   ## Usage
   
-  Use and look at it
+  To use this project you open the program and it runs automatically.
   
   ## License
    
 
   ## Contributing
-  undefined
+  To contribute to this project email me with your inquiry.
   
   ## Tests
-  I don't have any
+  There are no current tests for this project. Everything works as it should.
   
   ## Questions
 
