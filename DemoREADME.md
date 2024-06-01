@@ -3,7 +3,7 @@
      
     
   ## Description
-    This is my first project showing off my newfound skills in coding and working with VSCode.
+  This is my first project showing off my newfound skills in coding and working with VSCode.
 
   ## Table of Contents:
       1. [Description](#description) 
