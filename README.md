@@ -1,36 +1,29 @@
-# Some project
-  
-  ## Table of Contents:
-    1. [Description](#description) 
-    2. [Installation](#Installation)
-    3. [Usage](#Usage)  
-    4. [Contributing](#Contributing)
-    5. [Tests](#Tests)
-    6. [License](#License)
-    7. [GitHub](#GitHub)
-    8. [E-mail](#E-mail)
-  
-  ## Description
-  Words and stuff 
-  
-  ## Installation
-  undefined
-  
-  ## Usage
-  
-  Use and it look at it
-  
-  ## Contributing
-  undefined
-  
-  ## Tests
-  I don't have any
-  
-  ## License
+# Pro (Professional) README Generator
    
+## Description
+
+Here is an application for generating a professional looking README via prompts with questions for a user.
   
-  ## GitHub
-  EXCervantes
+## Installation
+
+First to use this application you must create a `package.json` in VSCode. Then run `npm install` to install both the `inquirer@8.2.4` and `colors` packages.
   
-  ## E-mail
-  ecervantes06@gmail.com
+## Usage
+  
+Use and it look at it
+
+### Example of Webpage
+
+![Screenshot Page 1](assets/images/personalblogscreenshot1.jpg)
+![Screenshot Page 2](assets/images/personalblogscreenshot2.jpg)
+
+## Credits
+
+"_node.js - How to set default value for an answer using inquirer? - Stack Overflow_. (2018, October 16). Stack Overflow. Retrieved May 30, 2024, from https://stackoverflow.com/questions/52842442/how-to-set-default-value-for-an-answer-using-inquirer
+  
+## License
+
+GNU GENERAL PUBLIC LICENSE
+Version 3, 29 June 2007
+
+See LICENSE for more info

@@ -1,8 +1,10 @@
+// Necessary packages and modules
 const inquirer = require("inquirer");
 const colors = require("colors");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
 
+// Inquire module to take in user data and then generate the README markdown
 function init() {
     inquirer
         .prompt([
@@ -10,38 +12,53 @@ function init() {
                 type: "input",
                 message: "What is the title of your project?",
                 name: "title",
+                validate: function (answer) {
+                    if (answer.length > 1) return true;
+                    return console.log("Please enter a valid title for your project.");
+                }
             },
             {
                 type: "input",
                 message: "Write a description of your project",
                 name: "description",
+                validate: function (answer) {
+                    if (answer.length > 1) return true;
+                    return console.log("Please enter a description for your project.");
+                }
             },
             {
                 type: "input",
                 message: "What are the steps required to install your project for the Installation section?",
                 name: "install",
+                default: "N/A",
             },
             {
                 type: "input",
                 message: "What are the steps required to use your project for the Usage section?",
                 name: "usage",
+                validate: function (answer) {
+                    if (answer.length > 1) return true;
+                    return console.log("Please enter a how to use your project.");
+                }
             },
             {
                 type: "input",
                 message: "How would you like to contribute to this project?",
                 name: "contribute",
+                default: "N/A",
             },
             {
                 type: "input",
                 message: "What are some of your tests for your project to be listed under Tests?",
                 name: "tests",
+                default: "N/A",
             },
             {
                 type: "input",
                 message: "What is you github username? (Please omit the @)",
                 name: "github",
                 validate: function (answer) {
-                    if (answer.length >= 1) return true;
+                    if (answer.length > 1) return true;
                     return console.log("A valid GitHub username is required.");
                 }
             },
@@ -50,7 +67,7 @@ function init() {
                 message: "What is you email address?",
                 name: "email",
                 validate: function (answer) {
-                    if (answer.length >= 1) return true;
+                    if (answer.length > 1) return true;
                     return console.log("A valid email is required.");
                 }
             },
@@ -83,7 +100,7 @@ function init() {
             fs.writeFile("DemoREADME.md", readMe, (err) =>
                 err
                     ? console.log(colors.bgBrightRed(err))
-                    : console.log(colors.bgBrightGreen("Success!"))
+                    : console.log(colors.bgBrightGreen("Success! Enjoy your shiny new README."))
             );
         });
 }
