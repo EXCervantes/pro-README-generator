@@ -3,15 +3,15 @@ function licenseBadge(data) {
     const licenseType = data.license[0];
     let licenseString = " "
     if (licenseType === "None") {
-        licenseString = `![License: None]`
+        licenseString = `![License: None](assets/images/License-None.jpg)`
     }
     if (licenseType === "Apache License 2.0") {
         licenseString = `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
     };
-    if (licenseType === "GNU General Public License 3.0") {
+    if (licenseType === "GNU GPLv3") {
         licenseString = `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`
     };
-    if (licenseType === "MIT") {
+    if (licenseType === "MIT License") {
         licenseString = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
     };
     if (licenseType === "BSD 2-Clause 'Simplified' License") {
@@ -50,22 +50,24 @@ function licenseBadge(data) {
 function generateMarkdown(data) {
     return `# ${data.title}
     
-    ${licenseBadge(data)}
+  ${licenseBadge(data)}
     
   ## Description
-    ${data.description}
+  
+  ${data.description}
 
   ## Table of Contents:
-      1. [Description](#description) 
-      2. [Installation](#Installation)
-      3. [Usage](#Usage)  
-      4. [Contributing](#Contributing)
-      5. [Tests](#Tests)
-      6. [License](#License)
-      7. [GitHub](#GitHub)
-      8. [E-mail](#E-mail)
+  
+  1. [Description](#description) 
+  2. [Installation](#Installation)
+  3. [Usage](#Usage)  
+  4. [License](#License)
+  5. [Contributing](#Contributing)
+  6. [Tests](#Tests)
+  7. [Questions](#Questions)
   
   ## Installation
+  
   ${data.install}
   
   ## Usage
@@ -73,23 +75,24 @@ function generateMarkdown(data) {
   ${data.usage}
   
   ## License
+  
   ${licenseBadge(data)}
 
   ## Contributing
+  
   ${data.contribute}
   
   ## Tests
+  
   ${data.tests}
   
   ## Questions
 
   ### GitHub
-  ${data.github}
+  [${data.github}](https://github.com/${data.github})
   
   ### E-mail
   ${data.email}`
-
-
 }
 
 module.exports = generateMarkdown;

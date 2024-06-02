@@ -1,19 +1,22 @@
 # My First Project
     
-     
+   
     
   ## Description
-    This is my first project showing off my newfound skills in coding and working with VSCode.
+  This is my first project showing off my newfound skills in coding and working with VSCode.
 
   ## Table of Contents:
-      1. [Description](#description) 
-      2. [Installation](#Installation)
-      3. [Usage](#Usage)  
-      4. [Contributing](#Contributing)
-      5. [Tests](#Tests)
-      6. [License](#License)
-      7. [GitHub](#GitHub)
-      8. [E-mail](#E-mail)
+- [My First Project](#my-first-project)
+  - [Description](#description)
+  - [Table of Contents:](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
+    - [GitHub](#github)
+    - [E-mail](#e-mail)
   
   ## Installation
   There are no specific instructions to install this program. It runs as you see it with no special requirements to run it.
@@ -34,7 +37,7 @@
   ## Questions
 
   ### GitHub
-  EXCervantes
+  [EXCervantes](https://github.com/EXCervantes)
   
   ### E-mail
   ecervantes06@gmail.com
