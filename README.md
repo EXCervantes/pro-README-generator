@@ -20,12 +20,13 @@ Once the data is entered, the application will generate a README markdown file u
 
 ### Video Demonstrating Application In Use
 
+Here is a [link](https://drive.google.com/file/d/1eKcGoN9SfL_75I7ejRMg1LxDazqr_PpX/view?usp=drive_link) to a video demonstrating how this application works.
 
+### Screenshots of the Application
 
-### Screenshots
-
-![Screenshot Page 1](assets/images/personalblogscreenshot1.jpg)
-![Screenshot Page 2](assets/images/personalblogscreenshot2.jpg)
+![Screenshot 1](assets/images/proREADMEgenscreenshot1.jpg)
+![Screenshot 2](assets/images/proREADMEgenscreenshot2.jpg)
+![Screenshot 3](assets/images/proREADMEgenscreenshot3.jpg)
 
 ## Credits
 
