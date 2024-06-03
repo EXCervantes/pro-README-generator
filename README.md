@@ -2,7 +2,7 @@
    
 ## Description
 
-Here is an application for generating a professional looking README.md via prompts with questions for a user. This utilizes the packages Inquirer, File System (FS), and Colors.In addition uses those packages with the Node language manager to generate the README markdown file using the collected data from the questions posed to the user.
+Here is an application for generating a professional looking README.md via prompts with questions for a user. This utilizes the packages "Inquirer", "File System (FS)", and "Colors". In addition, uses those packages with the Node language manager to generate the README markdown file using the collected data from the questions posed to the user.
   
 ## Installation
 
@@ -33,7 +33,7 @@ Referenced for demonstration of the `inquirer` package in action and to understa
 
 "_node.js - How to set default value for an answer using inquirer? - Stack Overflow_. (2018, October 16). Stack Overflow. Retrieved May 30, 2024, from https://stackoverflow.com/questions/52842442/how-to-set-default-value-for-an-answer-using-inquirer
 
-Used for the GitHub license badges found in the README.md generator
+Used for the GitHub license badges found in the README markdown generator.
 
 Himsel, Lukas, _Markdown License badges_, (2022, May 6), GitHub Gist webpage, https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
   
