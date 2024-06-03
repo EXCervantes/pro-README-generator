@@ -8,7 +8,7 @@ Here is an application for generating a professional looking README.md via promp
 
 First to use this application head to the [Professional README Generator](https://github.com/EXCervantes/pro-README-generator) and clone the repository. To learn how to clone a repository checkout this guide [Cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
 
-Then you must create a `package.json` in VSCode. You must have `node` installed on your system. Go [here](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs) for instructions on how to do so.
+You must have `node` installed on your system. Go [here](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs) for instructions on how to do so.
 
 Then in the Terminal run `npm install` to install both the `inquirer@8.2.4` and `colors` packages. For help on these click [here](https://www.npmjs.com/package/inquirer/v/8.2.4) for `inquirer` or [here](https://www.npmjs.com/package/colors) for `colors`. Finally to initialize this application run `node index.js` in the Terminal.
   
