@@ -1,7 +1,6 @@
 // Generate License badge and text for License section
 function licenseBadge(data) {
     const licenseType = data.license;
-    console.log(licenseType)
     let licenseUrlString = ""
     let licenseText = ""
     if (licenseType === "None") {

@@ -10,7 +10,7 @@ First to use this application head to the [Professional README Generator](https:
 
 Then you must create a `package.json` in VSCode. You must have `node` installed on your system. Go [here](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs) for instructions on how to do so.
 
-Then in the Terminal run `npm install` to install both the `inquirer@8.2.4` and `colors` packages. For help on how to these click [here](https://www.npmjs.com/package/inquirer/v/8.2.4) for `inquirer` or [here](https://www.npmjs.com/package/colors) for `colors`. Finally to initialize this application run `node index.js` in the Terminal.
+Then in the Terminal run `npm install` to install both the `inquirer@8.2.4` and `colors` packages. For help on these click [here](https://www.npmjs.com/package/inquirer/v/8.2.4) for `inquirer` or [here](https://www.npmjs.com/package/colors) for `colors`. Finally to initialize this application run `node index.js` in the Terminal.
   
 ## Usage
   
@@ -39,7 +39,6 @@ Himsel, Lukas, _Markdown License badges_, (2022, May 6), GitHub Gist webpage, ht
   
 ## License
 
-GNU GENERAL PUBLIC LICENSE
-Version 3, 29 June 2007
+This project is licensed under [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-See LICENSE for more info
+Please see the [License](https://opensource.org/licenses/MIT) page for more info.

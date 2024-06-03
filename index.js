@@ -94,7 +94,6 @@ function init() {
             },
         ])
         .then((data) => {
-            console.log(data);
             const readMe = generateMarkdown(data);
 
             fs.writeFile("DemoREADME.md", readMe, (err) =>
